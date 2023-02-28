@@ -31,5 +31,10 @@ Actions Taken:
 - Edited `README.md` to update project information
 
 Actions to Take:
+- Add project specific plugins
+    - Add to composer.json
+    - Run composer update
+    - Run `artisan mix:install` and ignore all the packages loaded via composer
+
 - Change config files
     - config/app.php (app name)

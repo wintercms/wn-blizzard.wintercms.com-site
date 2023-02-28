@@ -3,12 +3,16 @@
         "laravel-mix": "^6.0.41"
     },
     "workspaces": {
-        "packages": [
-        ],
+        "packages": [],
         "ignoredPackages": [
             "modules/backend",
             "modules/system",
-            "plugins/winter/sentry"
+            "plugins/winter/blocks",
+            "plugins/winter/ckeditor",
+            "plugins/winter/driveraws",
+            "plugins/winter/sentry",
+            "plugins/winter/sso",
+            "plugins/winter/tailwindui"
         ]
     }
 }

@@ -27,7 +27,39 @@
         "laravel/framework": "^9.1",
         "wikimedia/composer-merge-plugin": "~2.0.1",
 
-        "winter/wn-sentry-plugin": "dev-main"
+        "winter/wn-blocks-plugin": "dev-main",
+        "winter/wn-blog-plugin": "dev-main",
+        "winter/wn-ckeditor-plugin": "dev-main",
+        "winter/wn-cloudflare-plugin": "dev-main",
+        "winter/wn-docs-plugin": "dev-main",
+        "winter/wn-driveraws-plugin": "dev-main",
+        "winter/wn-drivermailgun-plugin": "dev-main",
+        "winter/wn-drivermandrill-plugin": "dev-main",
+        "winter/wn-driverpostmark-plugin": "dev-main",
+        "winter/wn-driversendgrid-plugin": "dev-main",
+        "winter/wn-driversparkpost-plugin": "dev-main",
+        "winter/wn-forum-plugin": "dev-main",
+        "winter/wn-googleanalytics-plugin": "dev-main",
+        "winter/wn-location-plugin": "dev-main",
+        "winter/wn-mailchimp-plugin": "dev-main",
+        "winter/wn-matomo-plugin": "dev-main",
+        "winter/wn-notes-plugin": "dev-main",
+        "winter/wn-notify-plugin": "dev-main",
+        "winter/wn-pages-plugin": "dev-main",
+        "winter/wn-pwnedpasswords-plugin": "dev-main",
+        "winter/wn-redirect-plugin": "dev-main",
+        "winter/wn-search-plugin": "dev-main",
+        "winter/wn-sentry-plugin": "dev-main",
+        "winter/wn-seo-plugin": "dev-main",
+        "winter/wn-sitemap-plugin": "dev-main",
+        "winter/wn-sso-plugin": "dev-main",
+        "winter/wn-tailwindui-plugin": "dev-main",
+        "winter/wn-tinypng-plugin": "dev-main",
+        "winter/wn-translate-plugin": "dev-main",
+        "winter/wn-twitter-plugin": "dev-main",
+        "winter/wn-user-plugin": "dev-main",
+        "winter/wn-userplus-plugin": "dev-main",
+        "winter/wn-vapor-plugin": "dev-main"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5.8",
@@ -37,10 +69,12 @@
         "php-parallel-lint/php-parallel-lint": "^1.0",
         "dms/phpunit-arraysubset-asserts": "^0.1.0|^0.2.1",
 
+        "winter/wn-builder-plugin": "dev-main",
         "winter/wn-debugbar-plugin": "dev-main",
         "winter/wn-dusk-plugin": "dev-main",
         "winter/wn-ignition-plugin": "dev-main",
-        "winter/wn-ray-plugin": "dev-main"
+        "winter/wn-ray-plugin": "dev-main",
+        "winter/wn-test-plugin": "dev-main"
     },
     "scripts": {
         "post-create-project-cmd": [
