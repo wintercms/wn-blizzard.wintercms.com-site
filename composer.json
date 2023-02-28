@@ -27,6 +27,8 @@
         "laravel/framework": "^9.1",
         "wikimedia/composer-merge-plugin": "~2.0.1",
 
+        "winter/wn-workshop-theme": "dev-main",
+
         "winter/wn-blocks-plugin": "dev-main",
         "winter/wn-blog-plugin": "dev-main",
         "winter/wn-ckeditor-plugin": "dev-main",

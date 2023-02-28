@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a191a90f610ceadf63d6490c3c6198ff",
+    "content-hash": "db2f4eafc45026c841ca62eec537b4fd",
     "packages": [
         {
             "name": "assetic/framework",
@@ -11909,12 +11909,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wintercms/wn-sso-plugin.git",
-                "reference": "2b1494e8ca9e60e01fecb50bdd35090eb2f38e0f"
+                "reference": "d83e2d406899a6af9d46d72039491b8801316833"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wintercms/wn-sso-plugin/zipball/2b1494e8ca9e60e01fecb50bdd35090eb2f38e0f",
-                "reference": "2b1494e8ca9e60e01fecb50bdd35090eb2f38e0f",
+                "url": "https://api.github.com/repos/wintercms/wn-sso-plugin/zipball/d83e2d406899a6af9d46d72039491b8801316833",
+                "reference": "d83e2d406899a6af9d46d72039491b8801316833",
                 "shasum": ""
             },
             "require": {
@@ -11969,7 +11969,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-02-28T18:03:55+00:00"
+            "time": "2023-02-28T18:18:15+00:00"
         },
         {
             "name": "winter/wn-system-module",
@@ -12182,12 +12182,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wintercms/wn-translate-plugin.git",
-                "reference": "990310d9c8393eaa321999e17772790fc5c9b96e"
+                "reference": "06dafb017d982492a192a3769ac825f215323b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wintercms/wn-translate-plugin/zipball/990310d9c8393eaa321999e17772790fc5c9b96e",
-                "reference": "990310d9c8393eaa321999e17772790fc5c9b96e",
+                "url": "https://api.github.com/repos/wintercms/wn-translate-plugin/zipball/06dafb017d982492a192a3769ac825f215323b46",
+                "reference": "06dafb017d982492a192a3769ac825f215323b46",
                 "shasum": ""
             },
             "require": {
@@ -12245,7 +12245,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-12-15T19:20:57+00:00"
+            "time": "2023-02-28T18:39:08+00:00"
         },
         {
             "name": "winter/wn-twitter-plugin",
@@ -12525,6 +12525,71 @@
                 }
             ],
             "time": "2022-11-07T07:59:47+00:00"
+        },
+        {
+            "name": "winter/wn-workshop-theme",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wintercms/wn-workshop-theme.git",
+                "reference": "6727f712cd8d0b9f6faf7865f92a73c329108436"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wintercms/wn-workshop-theme/zipball/6727f712cd8d0b9f6faf7865f92a73c329108436",
+                "reference": "6727f712cd8d0b9f6faf7865f92a73c329108436",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "default-branch": true,
+            "type": "winter-theme",
+            "extra": {
+                "installer-name": "workshop"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Thomson",
+                    "email": "git@alfreido.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Winter CMS Maintainers",
+                    "homepage": "https://wintercms.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "TailwindCSS-built theme for testing core plugins",
+            "homepage": "https://github.com/wintercms/wn-workshop-theme",
+            "keywords": [
+                "plugin",
+                "testing",
+                "theme",
+                "winter",
+                "winter cms",
+                "workshop"
+            ],
+            "support": {
+                "discord": "https://discord.gg/D5MFSPH6Ux",
+                "issues": "https://github.com/wintercms/wn-workshop-theme/issues",
+                "source": "https://github.com/wintercms/wn-workshop-theme"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/wintercms",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/wintercms",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-02-28T16:04:49+00:00"
         }
     ],
     "packages-dev": [
@@ -16117,6 +16182,7 @@
         "winter/wn-system-module": 20,
         "winter/wn-backend-module": 20,
         "winter/wn-cms-module": 20,
+        "winter/wn-workshop-theme": 20,
         "winter/wn-blocks-plugin": 20,
         "winter/wn-blog-plugin": 20,
         "winter/wn-ckeditor-plugin": 20,

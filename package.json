@@ -4,7 +4,8 @@
     },
     "workspaces": {
         "packages": [
-            "themes/blizzard"
+            "themes/blizzard",
+            "themes/workshop"
         ],
         "ignoredPackages": [
             "modules/backend",
