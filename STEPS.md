@@ -43,3 +43,8 @@ Actions to Take:
 - Run `artisan mix:install && artisan mix:compile -p theme-blizzard` to add the theme to workspace and then install & compile assets
 - Run `artisan migrate`
 - Run `artisan winter:mirror public --relative`
+
+
+## TODO:
+- [ ] Switch to using a child theme of Workshop once the child theme support is merged in
+- [ ] Setup blizzard.wintercms.com on Laravel Vapor for demonstration purposes
