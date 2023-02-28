@@ -3,7 +3,9 @@
         "laravel-mix": "^6.0.41"
     },
     "workspaces": {
-        "packages": [],
+        "packages": [
+            "themes/blizzard"
+        ],
         "ignoredPackages": [
             "modules/backend",
             "modules/system",

@@ -35,6 +35,11 @@ Actions to Take:
     - Add to composer.json
     - Run composer update
     - Run `artisan mix:install` and ignore all the packages loaded via composer
-
+- Run `artisan create:theme blizzard tailwind` to scaffold out the theme for the project
 - Change config files
-    - config/app.php (app name)
+    - config/app.php (appName, appUrl)
+    - config/cms.php (activeTheme, backendUri, backendTimezone)
+    - config/mail.php (from.address, from.name)
+- Run `artisan mix:install && artisan mix:compile -p theme-blizzard` to add the theme to workspace and then install & compile assets
+- Run `artisan migrate`
+- Run `artisan winter:mirror public --relative`

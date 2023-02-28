@@ -87,7 +87,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'noreply@example.com'),
-        'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Winter CMS')),
+        'address' => env('MAIL_FROM_ADDRESS', 'noreply@blizzard.wintercms.com'),
+        'name' => env('MAIL_FROM_NAME', env('APP_NAME', 'Blizzard (No Reply)')),
     ],
 ];

@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Winter CMS'),
+    'name' => env('APP_NAME', 'Blizzard'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://blizzard.wintercms.local'),
 
     /*
     |--------------------------------------------------------------------------
