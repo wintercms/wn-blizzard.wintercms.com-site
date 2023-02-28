@@ -1,0 +1,14 @@
+{
+    "devDependencies": {
+        "laravel-mix": "^6.0.41"
+    },
+    "workspaces": {
+        "packages": [
+        ],
+        "ignoredPackages": [
+            "modules/backend",
+            "modules/system",
+            "plugins/winter/sentry"
+        ]
+    }
+}
