@@ -40,6 +40,7 @@
         "winter/wn-driverpostmark-plugin": "dev-main",
         "winter/wn-driversendgrid-plugin": "dev-main",
         "winter/wn-driversparkpost-plugin": "dev-main",
+        "winter/wn-excel-plugin": "dev-main",
         "winter/wn-forum-plugin": "dev-main",
         "winter/wn-googleanalytics-plugin": "dev-main",
         "winter/wn-location-plugin": "dev-main",
@@ -84,7 +85,8 @@
         ],
         "post-update-cmd": [
             "@php artisan winter:version",
-            "@php artisan package:discover"
+            "@php artisan package:discover",
+            "@php artisan winter:mirror public --relative"
         ],
         "test": [
             "phpunit --stop-on-failure"
